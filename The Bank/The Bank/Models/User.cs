@@ -58,6 +58,18 @@ namespace The_Bank.Models
             }
         }
 
+        private string confirmPassword;
+
+        public string ConfirmPassword
+        {
+            get { return ConfirmPassword; }
+            set
+            {
+                confirmPassword = value;
+                OnPropertyChanged("ConfirmPassword");
+            }
+        }
+
         private string api_key;
 
         public string Api_key
@@ -137,6 +149,20 @@ namespace The_Bank.Models
         private void OnPropertyChanged(string propertyName)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName)); 
+        }
+
+        public static async void Register(User user)
+        {
+            using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
+            {
+                conn.CreateTable<User>();
+                int rows = conn.Insert(user);
+
+                if (rows > 0)
+                    await App.Current.MainPage.DisplayAlert("Success", "User registered", "Ok");
+                else
+                    await App.Current.MainPage.DisplayAlert("Failure", "Registration failed", "Ok");
+            }
         }
 
         public static async Task<bool> Login(string email, string password)

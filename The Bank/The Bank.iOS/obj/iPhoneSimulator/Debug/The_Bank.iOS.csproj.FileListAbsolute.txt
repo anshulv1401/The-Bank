@@ -55,3 +55,8 @@ D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank.iOS\obj
 D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank.iOS\obj\iPhoneSimulator\Debug\The_Bank.iOS.csproj.CopyComplete
 D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank.iOS\obj\iPhoneSimulator\Debug\The Bank.iOS.exe
 D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank.iOS\obj\iPhoneSimulator\Debug\The Bank.iOS.pdb
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank.iOS\bin\iPhoneSimulator\Debug\SQLite-net.dll
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_green.dll
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.core.dll
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.provider.sqlite3.dll

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using The_Bank.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -12,9 +12,13 @@ namespace The_Bank.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class RegisterPage : ContentPage
 	{
-		public RegisterPage ()
+        RegisterViewModel viewModel;
+
+        public RegisterPage ()
 		{
-			InitializeComponent ();
-		}
+            InitializeComponent();
+            viewModel = new RegisterViewModel();
+            BindingContext = viewModel;
+        }
 	}
 }

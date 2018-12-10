@@ -1,0 +1,16 @@
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\bin\Debug\netstandard2.0\The Bank.deps.json
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\bin\Debug\netstandard2.0\The Bank.dll
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\bin\Debug\netstandard2.0\The Bank.pdb
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\The Bank.csproj.CoreCompileInputs.cache
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\The Bank.AssemblyInfoInputs.cache
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\The Bank.AssemblyInfo.cs
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\The Bank.dll
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\The Bank.pdb

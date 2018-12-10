@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:The_Bank"
+             x:Class="The_Bank.Views.LoginPage">
+    <StackLayout VerticalOptions="Center"
+                 CompressedLayout.IsHeadless="True"
+                 Margin="20,0"
+                 >
+        <Entry 
+            x:Name="emailEntry"
+            Placeholder="Email Address"
+            TextColor="{StaticResource blueColor}"
+            Keyboard="Email"
+            Text="{Binding Email, Mode=TwoWay}"
+               />
+        <Entry 
+            x:Name="passwordEntry"
+            Placeholder="Password"
+            TextColor="{StaticResource blueColor}"
+            IsPassword="True"
+            Text="{Binding Password, Mode=TwoWay}"
+               />
+        <Button
+            x:Name="LogInButton"
+            Margin="0,50,0,0"
+            Text="Log in"
+            Style="{StaticResource normalButton}"
+            Command="{Binding LoginCommand}"
+            CommandParameter="{Binding User}"
+                />
+        <Button
+            x:Name="registerUserButton"
+            Text="Register"
+            HorizontalOptions="End"
+            Command="{Binding RegisterNavigationCommand}"
+                />
+    </StackLayout>
+
+</ContentPage>

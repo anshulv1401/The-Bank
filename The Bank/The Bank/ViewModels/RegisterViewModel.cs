@@ -8,12 +8,9 @@ namespace The_Bank.ViewModels
 {
     public class RegisterViewModel : INotifyPropertyChanged
     {
-        User user;
-        string password;
-        string confirmPassword;
-        string email;
-
         public RegisterCommand RegisterCommand { get; set; }
+
+        private User user;
 
         public User User
         {
@@ -24,6 +21,9 @@ namespace The_Bank.ViewModels
                 OnPropertyChanged("User");
             }
         }
+
+        private string email;
+
         public string Email
         {
             get { return email; }
@@ -39,6 +39,9 @@ namespace The_Bank.ViewModels
                 OnPropertyChanged("Email");
             }
         }
+
+        private string password;
+
         public string Password
         {
             get { return password; }
@@ -54,6 +57,9 @@ namespace The_Bank.ViewModels
                 OnPropertyChanged("Password");
             }
         }
+
+        private string confirmPassword;
+
         public string ConfirmPassword
         {
             get { return confirmPassword; }

@@ -10,7 +10,6 @@ namespace The_Bank.ViewModels
 {
     class LoginViewModel : INotifyPropertyChanged
     {
-
         public LoginCommand LoginCommand { get; set; }
 
         public RegisterNavigationCommand RegisterNavigationCommand { get; set; }

@@ -10,25 +10,27 @@ namespace The_Bank.ViewModels
 
         public event EventHandler CanExecuteChanged;
 
-        public RegisterCommand(RegisterViewModel viewModel)
+        public RegisterCommand(RegisterViewModel registerViewModel)
         {
-            ViewModel = viewModel;
+            ViewModel = registerViewModel;
         }
         public bool CanExecute(object parameter)
         {
             var user = (User)parameter;
 
-            if (user != null)
-            {
-                if (user.Password == user.ConfirmPassword)
-                {
-                    if (string.IsNullOrEmpty(user.Email) || string.IsNullOrEmpty(user.Password))
-                        return false;
-                    return true;
-                }
-                return false;
-            }
-            return false;
+            return true;
+
+            //if (user != null)
+            //{
+            //    if (user.Password == user.ConfirmPassword)
+            //    {
+            //        if (string.IsNullOrEmpty(user.Email) || string.IsNullOrEmpty(user.Password))
+            //            return false;
+            //        return true;
+            //    }
+            //    return false;
+            //}
+            //return false;
         }
 
         public void Execute(object parameter)

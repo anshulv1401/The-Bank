@@ -162,6 +162,7 @@ namespace The_Bank.Models
                     await App.Current.MainPage.DisplayAlert("Success", "User registered", "Ok");
                 else
                     await App.Current.MainPage.DisplayAlert("Failure", "Registration failed", "Ok");
+                conn.Close();
             }
         }
 

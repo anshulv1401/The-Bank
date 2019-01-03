@@ -103,6 +103,8 @@ D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank.Android
 D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank.Android\obj\Debug\81\android\assets\The Bank.Android.pdb
 D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\bin\Debug\netstandard2.0\The_Bank.dll
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank.Android\bin\Debug\The_Bank.dll.mdb
 D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank.Android\obj\Debug\81\linksrc\FormsViewGroup.dll.mdb
 D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank.Android\obj\Debug\81\linksrc\The_Bank.dll.mdb
 D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

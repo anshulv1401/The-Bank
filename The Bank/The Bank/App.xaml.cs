@@ -16,13 +16,13 @@ namespace The_Bank
         public App()
         {
             InitializeComponent();
-            MainPage = new NavigationPage(new LoginPage());
+            MainPage = new MainPage();
         }
         
         public App(String databaseLocation)
         {
             InitializeComponent();
-            MainPage = new NavigationPage(new LoginPage());
+            MainPage =new MainPage();
 
             DatabaseLocation = databaseLocation;
         }

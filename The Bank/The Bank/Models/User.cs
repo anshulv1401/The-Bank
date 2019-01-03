@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using The_Bank.Views;
 
 namespace The_Bank.Models
 {
@@ -62,7 +63,7 @@ namespace The_Bank.Models
 
         public string ConfirmPassword
         {
-            get { return ConfirmPassword; }
+            get { return confirmPassword; }
             set
             {
                 confirmPassword = value;
@@ -159,9 +160,12 @@ namespace The_Bank.Models
                 int rows = conn.Insert(user);
 
                 if (rows > 0)
+                {
                     await App.Current.MainPage.DisplayAlert("Success", "User registered", "Ok");
+                    await App.Current.MainPage.Navigation.PushAsync(new LoginPage());
+                }
                 else
-                    await App.Current.MainPage.DisplayAlert("Failure", "Registration failed", "Ok");
+                    await App.Current.MainPage.DisplayAlert("Failure", "Registration failed, please try again later", "Ok");
                 conn.Close();
             }
         }

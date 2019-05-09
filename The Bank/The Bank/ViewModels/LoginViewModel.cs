@@ -5,6 +5,7 @@ using System.Text;
 using The_Bank.Models;
 using The_Bank.ViewModels.Commands;
 using The_Bank.Views;
+using Xamarin.Forms;
 
 namespace The_Bank.ViewModels
 {
@@ -79,7 +80,7 @@ namespace The_Bank.ViewModels
 
         public async void Navigate()
         {
-            await App.Current.MainPage.Navigation.PushAsync(new RegisterPage());
+            await App.Current.MainPage.Navigation.PushAsync(new NavigationPage(new RegisterPage()));
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

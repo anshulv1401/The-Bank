@@ -14,7 +14,7 @@ D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Deb
 D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\The_Bank.csproj.CoreCompileInputs.cache
 D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\The_Bank.AssemblyInfoInputs.cache
 D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\The_Bank.AssemblyInfo.cs
-D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\The_Bank.dll
 D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\The_Bank.pdb
 D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\The_Bank.csprojAssemblyReference.cache
+D:\Users\Anshul.Vanawat\source\repos\The Bank\The Bank\The Bank\The Bank\obj\Debug\netstandard2.0\XamlC.stamp

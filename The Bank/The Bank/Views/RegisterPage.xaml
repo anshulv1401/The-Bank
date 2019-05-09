@@ -7,6 +7,12 @@
                  Margin="20,0"
                  >
         <Entry 
+            x:Name="nameEntry"
+            Text ="{Binding UserName, Mode=TwoWay}"
+            Placeholder="Full Name"
+            TextColor="{StaticResource blueColor}"
+               />
+        <Entry 
             x:Name="emailEntry"
             Text ="{Binding Email, Mode=TwoWay}"
             Placeholder="Email Address"

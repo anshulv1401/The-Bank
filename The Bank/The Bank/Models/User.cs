@@ -1,8 +1,13 @@
-﻿using SQLite;
+﻿using Newtonsoft.Json;
+using SQLite;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
+using System.IO;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using The_Bank.Views;
@@ -154,6 +159,55 @@ namespace The_Bank.Models
 
         public static async void Register(User user)
         {
+            HttpClient client;
+            client = new HttpClient();
+
+            /*
+        try {
+            string uri = Constants.RestUrl +
+                String.Format
+                (
+                    "register?name={0}&email={1}&password={2}",
+                    user.userName,
+                    user.email,
+                    user.password
+                );
+
+            var request = HttpWebRequest.Create(uri);
+            request.Method = "POST";
+            request.ContentType = "application/json";
+            HttpWebResponse requestResponse = (HttpWebResponse)await request.GetResponseAsync();
+            StreamReader sr = new StreamReader(requestResponse.GetResponseStream(), Encoding.UTF8);
+            string pageContent = sr.ReadToEnd();
+            sr.Close();
+            requestResponse.Close();
+            if (pageContent.Contains("You are successfully registered"))
+            {
+                await App.Current.MainPage.DisplayAlert("Success", "Registration Successfull", "Ok");
+            }
+            else
+            {
+                await App.Current.MainPage.DisplayAlert("Failure", "Registration failed", "Ok");
+            }
+
+            //var uri = new Uri(Constants.RestUrl + "register");
+
+            //StringContent content = new StringContent(String.Format
+            //(
+            //    "name={0}&email={1}&password={2}",
+            //    user.userName,
+            //    user.email,
+            //    user.password
+            //));
+
+            //HttpResponseMessage response = null;
+            //response = await client.PostAsync(uri, content);
+
+        } catch (Exception ex) {
+            await App.Current.MainPage.DisplayAlert("Failure", "Registration failed", "Ok");
+        }
+        */
+
             using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
             {
                 conn.CreateTable<User>();

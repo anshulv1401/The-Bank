@@ -22,6 +22,25 @@ namespace The_Bank.ViewModels
             }
         }
 
+        private string userName;
+
+        public string UserName
+        {
+            get { return userName; }
+            set
+            {
+                userName = value;
+                User = new User()
+                {
+                    UserName = this.UserName,
+                    Email = this.Email,
+                    Password = this.Password,
+                    ConfirmPassword = this.ConfirmPassword
+                };
+                OnPropertyChanged("UserName");
+            }
+        }
+
         private string email;
 
         public string Email
@@ -32,6 +51,7 @@ namespace The_Bank.ViewModels
                 email = value;
                 User = new User()
                 {
+                    UserName = this.UserName,
                     Email = this.Email,
                     Password = this.Password,
                     ConfirmPassword = this.ConfirmPassword
@@ -50,6 +70,7 @@ namespace The_Bank.ViewModels
                 password = value;
                 User = new User()
                 {
+                    UserName = this.UserName,
                     Email = this.Email,
                     Password = this.Password,
                     ConfirmPassword = this.ConfirmPassword
@@ -68,6 +89,7 @@ namespace The_Bank.ViewModels
                 confirmPassword = value;
                 User = new User()
                 {
+                    UserName = this.UserName,
                     Email = this.Email,
                     Password = this.Password,
                     ConfirmPassword = this.ConfirmPassword

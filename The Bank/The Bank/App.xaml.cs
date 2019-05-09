@@ -10,19 +10,18 @@ namespace The_Bank
     public partial class App : Application
     {
         public static string DatabaseLocation = string.Empty;
-
         public static User user = new User();
 
         public App()
         {
             InitializeComponent();
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new LoginPage());
         }
         
         public App(String databaseLocation)
         {
             InitializeComponent();
-            MainPage =new MainPage();
+            MainPage = new NavigationPage(new LoginPage());
 
             DatabaseLocation = databaseLocation;
         }

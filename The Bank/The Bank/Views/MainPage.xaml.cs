@@ -45,10 +45,8 @@ namespace The_Bank.Views
             if (newPage != null && Detail != newPage)
             {
                 Detail = newPage;
-
                 if (Device.RuntimePlatform == Device.Android)
                     await Task.Delay(100);
-
                 IsPresented = false;
             }
         }

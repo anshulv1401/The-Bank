@@ -8,6 +8,17 @@ namespace The_Bank.Models
     public class Group : INotifyPropertyChanged
     {
         private int groupID;
+        private string groupName;
+        private string groupCode;
+        private double interest;
+        private double bankInterest;
+        private int groupType;
+        private string groupKey;
+        private double groupAmount;
+        private int createdBy;
+        private int modifiedBy;
+        private DateTime createdDate;
+        private DateTime modifiedDate;
 
         public int GroupID
         {
@@ -19,8 +30,6 @@ namespace The_Bank.Models
             }
         }
 
-        private string groupName;
-
         public string GroupName
         {
             get { return groupName; }
@@ -30,8 +39,6 @@ namespace The_Bank.Models
                 OnPropertyChanged("GroupName");
             }
         }
-
-        private string groupCode;
 
         public string GroupCode
         {
@@ -43,8 +50,6 @@ namespace The_Bank.Models
             }
         }
 
-        private double interest;
-
         public double Interest
         {
             get { return interest; }
@@ -54,8 +59,6 @@ namespace The_Bank.Models
                 OnPropertyChanged("Interest");
             }
         }
-        
-        private double bankInterest;
 
         public double BankInterest
         {
@@ -67,8 +70,6 @@ namespace The_Bank.Models
             }
         }
 
-        private int groupType;
-
         public int GroupType
         {
             get { return groupType; }
@@ -78,8 +79,6 @@ namespace The_Bank.Models
                 OnPropertyChanged("GroupType");
             }
         }
-
-        private string groupKey;
 
         public string GroupKey
         {
@@ -91,8 +90,6 @@ namespace The_Bank.Models
             }
         }
 
-        private double groupAmount;
-
         public double GroupAmount
         {
             get { return groupAmount; }
@@ -102,8 +99,6 @@ namespace The_Bank.Models
                 OnPropertyChanged("GroupAmount");
             }
         }
-
-        private int createdBy;
 
         public int CreatedBy
         {
@@ -115,8 +110,6 @@ namespace The_Bank.Models
             }
         }
 
-        private int modifiedBy;
-
         public int ModifiedBy
         {
             get { return modifiedBy; }
@@ -127,9 +120,6 @@ namespace The_Bank.Models
             }
         }
 
-
-        private DateTime createdDate;
-
         public DateTime CreatedDate
         {
             get { return createdDate; }
@@ -139,8 +129,6 @@ namespace The_Bank.Models
                 OnPropertyChanged("CreatedDate");
             }
         }
-
-        private DateTime modifiedDate;
 
         public DateTime ModifiedDate
         {
